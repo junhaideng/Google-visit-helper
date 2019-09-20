@@ -1,0 +1,23 @@
+{
+   "copyright": {
+      "message": "googlehelper.net"
+   },
+   "description": {
+      "message": "This is a browser plugin for developers, cross-border workers, and research institutes to secure and speed Internet surfing."
+   },
+   "error_button": {
+      "message": "Click here"
+   },
+   "error_code": {
+      "message": "Error Code"
+   },
+   "error_network": {
+      "message": "Unable to connect to data server center"
+   },
+   "name": {
+      "message": "Ghelper Beta"
+   },
+   "url_domain": {
+      "message": "googlehelper.net"
+   }
+}

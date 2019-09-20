@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "assets/js/jquery.min.js", "assets/js/chrome.min.js", "assets/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/img/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "homepage_url": "http://googlehelper.net",
+   "icons": {
+      "128": "assets/img/icon128.png",
+      "16": "assets/img/icon.png",
+      "48": "assets/img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9a2pSDCQmDET1HZvnCbcOhnNzOocrmLkIg8y+klQy7afsQjx9Sm8zrbdstHxDJWWItwfxlcBk/ghyLZ7XhREvhd/j/XhMOJf+dK0N3IBmJBOlTOHlWMJkf1hveDlvjCUwtrgTC4cEksnNuDLcCrU2Pg/3g5rWbaHCt5zGxORcEnXfyqsO1mO9A+OK3Sf0rAZReaj+f3f1vAd5sjxxKoNYlRKLLbgJ7/nXRMnJn33pMh3De2dLCEzHhLfC220Q2RDvsASuHB5a6jMSZ3wXlZ0P9g2tfikYQW6Wzz4V470waQ9FDGR8isDaguBkJSJLXYAA8C1rx+Kh/GMtumpl80xqwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0.0",
+   "name": "__MSG_name__",
+   "options_page": "settings.html",
+   "permissions": [ "notifications", "tabs", "proxy", "*://*.speedstunnel.com/", "*://*.ghelper.org/", "*://*.chromehelper.net/", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.3",
+   "web_accessible_resources": [ "assets/img/icon128.png" ]
+}
