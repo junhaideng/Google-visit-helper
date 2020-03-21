@@ -1,7 +1,9 @@
-body {
+.login {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
+  width:330px;
+  margin: 0 auto;
 }
 
 .form-signin {

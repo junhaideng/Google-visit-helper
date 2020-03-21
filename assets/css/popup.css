@@ -1,20 +1,18 @@
 body {
     background: #fff;
-    width:250px;
-    height:300px;
+    width:280px;
+    height:350px;
     padding:1em;
 }
 
 .popup-body {
-    height:220px;
+    height:250px;
 }
 .popup-body ul {
      list-style-type: none;
-     line-height: 2em;
+     line-height: 2.1em;
      padding-left: 0em;
 }
 .popup-header>.logo{
     text-align:center;
-}
-#popup {
 }

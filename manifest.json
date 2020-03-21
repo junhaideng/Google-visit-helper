@@ -1,32 +1,29 @@
 {
    "background": {
-      "scripts": [ "lib/sea.js", "bg.js" ]
+      "persistent": true,
+      "scripts": [ "assets/js/background.min.js" ]
    },
    "browser_action": {
-      "default_icon": "icons/icon.png",
+      "default_icon": "assets/img/icon.png",
       "default_popup": "popup.html",
-      "default_title": "zh_CN"
+      "default_title": "__MSG_name__"
    },
-   "content_scripts": [ {
-      "all_frames": false,
-      "js": [ "straightGoogle.js" ],
-      "matches": [ "http://*/*", "https://*/*" ],
-      "run_at": "document_end"
-   } ],
-   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
    "default_locale": "zh_CN",
-   "description": "最简单易用的谷歌访问助手,为chrome扩展用户量身打造。可以解决chrome扩展无法自动更新的问题，同时可以访问谷歌google搜索，gmail邮箱，google+等谷歌服务。",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.80d24e3f03aa001fb106a69fa77e64910f1751a550eecd66702b2333247d34a4",
+   "homepage_url": "http://googlehelper.net",
    "icons": {
-      "128": "icons/icon-128.png",
-      "16": "icons/icon.png"
+      "128": "assets/img/icon128.png",
+      "16": "assets/img/icon.png",
+      "48": "assets/img/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApypqVqhTtfUPmLzmOsgd10dUTKXBZgTpIfAhM2haJ+2Ydaj4EM8bv+oqMbK6iaVoLmcJrLmvpWV/ZaspQGSo90e+EBxsOxZ91AAMaBjFJ7bfynE3vf4cxHTLIOM0hYqrBdkFlfCvSaqPFbt/RMfR8vaCbI8CjvdOaPPbZLlly2j5eWrUsuIQUDwzAIEWzP0PF8T+AL+IdPbraSJlJpb0rhqgLe99su5KST5vzkw10verAj1/iYEYj+NUBT1HqtfM+kXR4qG/SLkolt8DY/js/o/j2MVBx1qdzBJSfhiO6kvB5GSECO2+Za8jrMC/hcRpmmGiFU6Nq2sUhj0XkXVIlwIDAQAB",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmIgHSgaBiBu81H1Y3aL81LnIKcG4JwUt3mmyvMU44WUiAjVo70l24mOrfwZnnWgEP7901DRhpvLYmNJiMaOpkaxucQw/cYfAqafsm6p4bAuKlt8hESHAYLa+5CAgSoWQ6W1ic3C7vyhuslTZ+coindSzZxtPn7tDJXECzPeXoQyM5ZD39Bk0T/o+/bktEx62tYbHAFgGKeyCWhV6WTu9SPQ104cCNVqQ/9G9UQBNljoJoE2A/3FaHs1VxMfrSgOPyaQGUEIo3QsrWO1ItKgyEu0FVGpY8amoPw+BkwyxuPOrPetPbTdKJocv/cwBJkjOzAPdw+kcFhCcMT/iGK6RTQIDAQAB",
    "manifest_version": 2,
-   "minimum_chrome_version": "18.0.0",
-   "name": "谷歌访问助手",
+   "minimum_chrome_version": "17.0.0",
+   "name": "__MSG_name__",
    "options_page": "options.html",
-   "permissions": [ "proxy", "tabs", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications", "\u003Call_urls>", "http://*/*", "https://*/*", "ftp://*/*" ],
+   "permissions": [ "management", "webRequest", "webRequestBlocking", "proxy", "\u003Call_urls>" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2.3.0",
-   "web_accessible_resources": [ "first.html" ]
+   "version": "2.3.5",
+   "web_accessible_resources": [ "assets/img/icon128.png" ]
 }
