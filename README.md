@@ -25,3 +25,11 @@
 
 - 如果你使用的不是Chrome浏览器，而是Firefox，那么你可以到[这里](https://addons.mozilla.org/en-US/firefox/addon/%E8%B0%B7%E6%AD%8C%E4%B8%8A%E7%BD%91%E5%8A%A9%E6%89%8B-%E5%AE%98%E7%BD%91%E7%89%88/)下载
 
+### 插件下载
+- 如果可以正常访问Google，那么打开应用商店即可进行下载插件
+
+- 如果你不能访问Google，这也不能限制你不下插件，可以选择下面可用的网址下载你所需要的插件
+  - [https://chrome.zzzmh.cn/](https://chrome.zzzmh.cn/)
+  - [https://crxdown.com/](https://crxdown.com/)
+  - [https://pictureknow.com/extensions](https://pictureknow.com/extensions)
+  - [https://www.gugeapps.net/](https://www.gugeapps.net/)
