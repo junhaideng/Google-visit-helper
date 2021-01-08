@@ -33,3 +33,12 @@
   - [https://crxdown.com/](https://crxdown.com/)
   - [https://pictureknow.com/extensions](https://pictureknow.com/extensions)
   - [https://www.gugeapps.net/](https://www.gugeapps.net/)
+
+
+### 如果按照上面的方式访问google之后返回403，尝试下面
+在浏览器上设置安全DNS后，可以防止被DNS污染和钩鱼网站.
+设置方法:
+1. 打开Chrome 浏览器“设置” chrome://settings
+2. 在搜索框输入 DNS 回车后，选择 "安全"
+3. 在“安全”设置页面中选择"高级"，然后选择"使用安全DNS"，点击"使用自定义" 选项后，输入`https://dns.alidns.com/dns-query?`(包括后面的?)
+4. 设置完成之后，会自动生效，然后尝试再次访问
